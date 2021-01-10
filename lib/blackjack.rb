@@ -31,11 +31,11 @@ end
 
 def hit?(num)
   prompt_user
-  get_user_input
-  if 'h'
+  user_input = get_user_input
+  if user_input == 'h'
     num += deal_card
   end
-  if 's'
+  if user_input == 's'
     return num
   else
     invalid_command
