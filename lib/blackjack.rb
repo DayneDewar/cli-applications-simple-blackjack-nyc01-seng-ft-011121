@@ -35,6 +35,7 @@ def hit?(num)
   while user_input != 'h' || user_input != 's'
     invalid_command
     prompt_user
+    
 end
 
 def invalid_command
